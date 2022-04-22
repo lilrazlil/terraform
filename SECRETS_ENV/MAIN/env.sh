@@ -27,3 +27,5 @@ name=$(echo $d | sed -e 's/ /\",\"/g');
 printf "variable \"name_secrets\" {
   default=[\"%s\"]
 }" "$name" > name_secrets.tf;
+
+terraform apply;

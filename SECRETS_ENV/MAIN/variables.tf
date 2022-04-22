@@ -16,7 +16,3 @@ variable "main_repos" {
   description = "Original repos"
   default = ["frontend","backend","smart-contract"]
 }
-
-variable "environment" {
-  default="MAIN"
-}

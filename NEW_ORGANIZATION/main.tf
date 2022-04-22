@@ -31,15 +31,6 @@ resource "github_repository" "repository" {
   depends_on = [null_resource.name]
 }
 
-resource "github_actions_secret" "example_secret" {
-  count = length(var.name_secrets)
-  repository       = "rombabomba-smart-contract"  #"${var.man_org}-smart-contract"
-  secret_name      = "${element(var.name_secrets,count.index)}"
-  plaintext_value  = "${element(var.secrets,count.index)}"
-  depends_on = [null_resource.name]
-}
-
-
 data "github_repositories" "example" {
   query = "org:${var.man_org}"
 }
