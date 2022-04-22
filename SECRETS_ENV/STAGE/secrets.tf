@@ -1,0 +1,3 @@
+variable "secrets" {
+  default=["dev.chains.com","7c6908c6-efce-4a2d-b9a5-52a23733dcb1","[\"GET\", \"POST\", \"PUT\", \"DELETE\", \"OPTIONS\"]","[\"*\"]","localhost","postgres://chains:0bcAr6m8NkyzFXrIQdQTqii6@localhost:5432/chains","chains","0bcAr6m8NkyzFXrIQdQTqii6","5432","chains","false","86400","YvcMg2GW6gZjAwdramXafS9lHaQ9txbvSHZNHDDR","2592000","SOv2cT29VqxrV1Q9J8M6CALGzTYflAR2wXJaiSQ1","amqp://chains:6pa4748yRfUMgAAv8bjNMako@127.0.0.1:5672/chains","/api","localhost","3000","15000","10","/api-info"]
+}
