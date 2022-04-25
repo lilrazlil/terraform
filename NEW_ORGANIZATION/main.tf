@@ -18,7 +18,6 @@ resource "github_membership" "member" {
   count = length(var.list_admins)
   username = element(var.list_admins, count.index)
   role     = "admin"
-  depends_on = [null_resource.name]
 }
 
 #Add a repository
@@ -28,7 +27,6 @@ resource "github_repository" "repository" {
   visibility = "private"
   allow_merge_commit = true
   auto_init          = true
-  depends_on = [null_resource.name]
 }
 
 data "github_repositories" "example" {
