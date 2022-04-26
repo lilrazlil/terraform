@@ -5,12 +5,6 @@ provider "github" {
     organization = var.man_org
 }
 
-resource "null_resource" "name" {
-  provisioner "local-exec" {
-    command = "./env.sh"
-  }
-}
-
 resource "github_actions_secret" "example_secret" {
   count = length(var.name_secrets)
   repository       = "${var.repos}"
