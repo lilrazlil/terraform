@@ -5,14 +5,6 @@ variable "man_org" {
   default = "rombabomba"
 }
 
-variable "list_admins" {
-  type = list
-  description = "People who add in membership organization"
-  default =  ["lilrazlil","AChechnev-Ostvald"]
-}
-
-variable "main_repos" {
-  type = list
-  description = "Original repos"
-  default = ["frontend","backend","smart-contract"]
+variable "repos" {
+  default= "rombabomba-frontend"
 }

@@ -7,9 +7,9 @@ SERVER_PORT=3000
 ST_ROUNDS=10
 DB_LINK=postgres://chains:0bcAr6m8NkyzFXrIQdQTqii6@localhost:5432/chains
 
-DB_HOST=localhost
+DB_HOSasdT=localhost
 DB_PORT=5432
-DB_NAME=chains
+DB_NAasdasdME=chains
 DB_USER=chains
 DB_PASSWORD=0bcAr6m8NkyzFXrIQdQTqii6
 
