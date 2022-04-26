@@ -13,7 +13,7 @@ DB_NAasdasdME=chains
 DB_USER=chains
 DB_PASSWORD=0bcAr6m8NkyzFXrIQdQTqii6
 
-BASE_URL=dev.chains.com
+BASasdasdE_URL=dev.chains.com
 
 JWT_ACCESS_LIFETIME=86400
 JWT_ACCESS_SECRET=YvcMg2GW6gZjAwdramXafS9lHaQ9txbvSHZNHDDR
